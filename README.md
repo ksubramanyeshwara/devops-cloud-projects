@@ -22,7 +22,8 @@ Projects are in separate folders. Each folder has its own detailed `README.md` w
 
 ## ♾️ DevOps Projects
 
-1. [Dockerizing a Django Application and pushing to Docker Hub]()
+1. [Deploying a Static Website using Docker and NGINX on a Cloud VM](./02-static-site-nginx-container/README.md)
+2. [Dockerizing a Django Application and pushing to Docker Hub]()
 
 ## ☁️ Cloud Projects
 

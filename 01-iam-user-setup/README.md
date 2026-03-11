@@ -76,6 +76,6 @@ In this project I'll create IAM user for administrative purpose, avoiding the us
 - [IAM Best Practices](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html)
 - [AWS IAM Documentation](https://docs.aws.amazon.com/iam/)
 
-# Author
+### Author
 
-K Subramanyeshwara-DevOps / Cloud Engineer
+- [K Subramanyeshwara](https://github.com/ksubramanyeshwara) - Devops and Cloud Engineer.
