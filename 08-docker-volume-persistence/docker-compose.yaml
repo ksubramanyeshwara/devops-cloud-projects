@@ -1,0 +1,44 @@
+services:
+  flask-blog:
+    # Use the official Python image from the Docker Hub
+    image: python:3.11-slim
+
+    # Set the container name
+    container_name: flask-blog-app
+
+    # Port mapping (Host:Container)
+    ports:
+      - "5000:5000"
+
+    # Volume mapping
+    # Mount the current directory to /app in the container
+    # This allows the container to access the application code and templates
+    volumes:
+      - ./:/app
+      # Mount a persistent volume for data persistence
+      - blog-data:/data
+
+    # Set the working directory in the container
+    working_dir: /app
+
+    # Commands to run when the container starts
+    # Install dependencies from requirements.txt
+    # Run the Flask application
+    command: >
+      sh -c "pip install --no-cache-dir -r requirements.txt &&
+             python app.py"
+
+    # Restart policy
+    restart: unless-stopped
+
+    # Environment variables (if needed)
+    environment:
+      # Set the Flask environment to development for better error messages and auto-reloading
+      - FLASK_ENV=development
+      # Ensure that Python output is sent straight to the terminal without buffering
+      - PYTHONUNBUFFERED=1
+# Define the volume for data persistence.
+# This is where Docker stores the persistent data.
+volumes:
+  blog-data:
+    driver: local # Use the local driver to store data on the host machine
