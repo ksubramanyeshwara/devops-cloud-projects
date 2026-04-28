@@ -22,13 +22,18 @@ Projects are in separate folders. Each folder has its own detailed `README.md` w
 
 ## ♾️ DevOps Projects
 
-1. [Deploying a Static Website using Docker and NGINX on a Cloud VM](./02-static-site-nginx-container/README.md)
-2. [Dockerizing a Django Application and pushing to Docker Hub]()
+1. [Deploying a Static Website using Docker and NGINX on a Cloud VM](./06-static-site-nginx-container)
+2. [Docker Static Site](./07-docker-static-site)
+3. [Docker Volume Persistence](./08-docker-volume-persistence)
+4. [Three-Tier Docker Compose](./09-3-tier-docker-compose)
 
 ## ☁️ Cloud Projects
 
-1. [IAM User Setup(Admin Access)](./01-iam-user-setup/README.md)
-<!-- 2. Static Website Deployment on AWS S3 -->
+1. [IAM User Setup(Admin Access)](./01-iam-user-setup)
+2. [IAM Group Setup](./02-iam-group-setup)
+3. [IAM Custom Policy(Least Privilege)](./03-iam-custom-policy-least-privilege)
+4. [IAM Role Setup](./04-iam-role-setup)
+5. [EC2 Instance Launch and Deploying a Static Website using Apache Server](./05-ec2-instance-launch)
 
 ## 📫 Connect With Me
 
