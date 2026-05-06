@@ -26,6 +26,8 @@ Projects are in separate folders. Each folder has its own detailed `README.md` w
 2. [Docker Static Site](./07-docker-static-site)
 3. [Docker Volume Persistence](./08-docker-volume-persistence)
 4. [Three-Tier Docker Compose](./09-3-tier-docker-compose)
+5. [Multi-Tier AWS VPC Architecture](./10-vpc-load-balancer-public-private-subnets/README.md)
+6. [GitHub Actions Self-hosted Runner on AWS EC2](./11-gha-self-hosted-runner-aws/README.md)
 
 ## ☁️ Cloud Projects
 
